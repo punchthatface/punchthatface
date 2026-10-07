@@ -31,12 +31,11 @@ SystemVerilog microarchitecture research for an energy-efficient GEMM accelerato
 
 *Source kept private due to course academic-integrity policies*
 
-SystemVerilog projects spanning timing-driven RTL implementation and integrated hardware-security architecture.
+Two related SystemVerilog projects covering both timing-driven RTL design and integrated hardware-security architecture.
 
-- Restructured iterative statistical-test algorithms into pipelined RTL and achieved **500 MHz timing closure with +99 ps setup slack** using Cadence Genus on ASAP7
-- Designed a CPU-mapped Root of Trust integrating AES/AES-CTR, PUF, TRNG, PRNG, and primality checking
-- Implemented control and arbitration for shared AES, LFSR, and ring-oscillator resources
-- Developed feature-level and multi-step use-case testbenches for command sequencing, fault injection, and security-function integration
+- **Project 1 — TRNG Statistical Test Engine:** implemented NIST-inspired statistical tests in synthesizable RTL, restructured iterative logic into pipelined datapaths, and achieved **500 MHz timing closure with +99 ps setup slack** using Cadence Genus on ASAP7
+- **Project 2 — Root-of-Trust Security Peripheral:** designed a CPU-mapped Root of Trust integrating AES/AES-CTR, PUF, TRNG, PRNG, and primality checking behind a 32-bit register interface
+- Implemented shared-resource control for AES, LFSR, and ring-oscillator hardware and developed feature-level and multi-step use-case testbenches
 
 ### [Parallel Video Reconstruction](https://github.com/punchthatface/15418-FinalProject)
 
